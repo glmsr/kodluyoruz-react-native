@@ -1,19 +1,19 @@
-# React Native BackHandler
+# React Native - BackHandler
 <img style="width:230px;
 margin:0px 0px 15px 15px;
 float:right;" src="../week1/images/subway_video.gif" align="right">
 
 Merhaba ! 
 
-Bu ufak yazıda React Native'de Android'e özel API'lardan biri olan BackHandler API'ı ele alacağım. 
+Bu kısa yazıda React Native'de Android'e özel API'lardan biri olan BackHandler API'ı ele alacağım. 
 
 
-## 💁‍♂️ Açıklama
----
+# 💁‍♂️ Açıklama
+
 BackHandler API, Android telefonlarda bulunan fiziksel geri tuşu (return) için bir event listener ekler ve bu şekilde,  bu tuşa basıldığında uygulamanın nasıl davranacağına karar verilebilinir.
 
-## 📚 Kullanabileceğimiz Metodlar
----
+# 📚 Kullanabileceğimiz Metodlar
+
 ## addEventListener()
     static addEventListener(eventName, handler)
 
@@ -23,8 +23,8 @@ BackHandler API, Android telefonlarda bulunan fiziksel geri tuşu (return) için
     static removeEventListener(eventName, handler)
     
 
-## 📝 Şablon
----
+# 📝 Şablon
+
 
 
        BackHandler.addEventListener('hardwareBackPress', function() {
@@ -47,6 +47,6 @@ BackHandler API, Android telefonlarda bulunan fiziksel geri tuşu (return) için
             return false;
 
     })
-## 💡 Örnek
----
+# 💡 Örnek
+
 ![ornekimg](/week1/images/ornek.png)
