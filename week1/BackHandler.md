@@ -1,5 +1,5 @@
 # React Native BackHandler
-<img style = "float:right; width: 230px; margin: 0px 0px 10px 10px" src="../week1/images/subway_video.gif">
+<img style = "float:right; width: 230px; margin: 0px 0px 10px 10px;" src="../week1/images/subway_video.gif">
 
 Merhaba ! 
 
